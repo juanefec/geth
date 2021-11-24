@@ -31,7 +31,7 @@ var account string
 
 func main() {
 	flag.StringVar(&infuraProject, "p", "", "usage: -p b98dac6bacd66b879..")
-	flag.StringVar(&account, "a", "0x5871db3E25C5BCaD9EAa08cD1d022b4F150AEE34", "usage: -p 0xb98dac6bacd66b879..")
+	flag.StringVar(&account, "a", "", "usage: -p 0xb98dac6bacd66b879..")
 	flag.Parse()
 
 	if infuraProject == "" {
